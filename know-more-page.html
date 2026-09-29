@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-slate-800">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/67img.jfif" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>67</title>
+    <script src="https://kit.fontawesome.com/69c022d0ed.js" crossorigin="anonymous"></script>
+  </head>
+<body class="bg-linear-to-b from-slate-300 to-60% to-slate-800">
+    
+    <div id="app"></div>
+
+    <div class="relative h-screen flex flex-col overflow-hidden">
+      <h1 class="number6 absolute top-0 left-0 text-[600px] z-0 text-slate-300 leading-[0.5] m-0">
+        6
+      </h1>
+      <h1 class="number7 absolute top-40 right-0 text-[600px] z-0 text-white leading-[0.5] m-0">
+        7
+      </h1>
+
+      <main class="min-h-0 relative flex flex-1 justify-center items-center overflow-hidden z-10">
+        <div class="center-box max-w-2xl relative z-10 rounded-2xl border-1 border-solid border-[rgba(255,255,255,1)] bg-[rgba(255,255,255,0.3)] p-12 text-sm text-white backdrop-blur-[6px]">
+            <span class="w-full flex justify-center pb-2">
+                <img class="w-46 h-54 rounded-xl" src="/67BigImg.jfif" alt="Image of 6 7 gesture">
+            </span>
+            <p class="text-lg p-3 bg-slate-800 rounded-2xl ">6 7, pronounced six-seven, is an internet meme with alternating hand raise and lowering gestures that took the internet by storm in late 2025. The meme seems to have originated from the drill rap "Doot Doot" by an American rapper known as <a href="https://www.youtube.com/@paymeskrilla" target="_blank"><em>"Skrilla"</em></a> who became popular after featuring basketball players in his music videos. The meme is based on professional basketball player <a href="https://en.wikipedia.org/wiki/LaMelo_Ball" target="_blank">Lamello Ball</a> whose height is listed as 6ft 7in!</p>
+            <div class="flex w-full justify-evenly mt-3">
+
+            <button
+              class="center-box-button rounded-xl bg-white px-8 py-4 text-xl text-slate-800 shadow-2xl shadow-white"
+              id="go-back-btn"
+            >
+              Go back <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button
+              class="center-box-button rounded-xl bg-slate-800 px-8 py-4 text-xl text-white shadow-2xl shadow-white"
+              id="motivation-btn"
+            >
+              Motivation <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+          </div>
+        </div>
+       
+      </main>
+
+    </div>
+    <footer class="h-40 z-10 w-full shrink-0 bg-slate-800 border-t-2 text-center text-white">
+    <div class="grid grid-cols-2">
+        <div>
+        <span class="w-full flex justify-center p-2 mt-5"><img class="67img w-20 h-20" src="/67img.jfif"></span>
+        <p class="p-4">™ 67 delivered to you by Yours Truly</p>
+        </div>
+        <div class="flex justify-center items-center">
+        <ul class="list-disc">
+            <li class="socials-link"><a href="mailto:muaaztariq109@gmail.com"><i class="fa-solid fa-envelope mr-2"></i>Email</a></li>
+            <li class="socials-link"><a href="https://discord.com/608649430794764298"><i class="fa-brands fa-discord mr-2"></i>Discord</a></li>
+            <li class="socials-link"><a href="https://github.com/Prox1ty"><i class="fa-brands fa-github mr-2"></i>Github</a></li>
+        </ul>
+        </div>
+        </div>
+    </footer>
+
+    <script>
+        const leftBtn = document.getElementById("go-back-btn");
+        const rightBtn = document.getElementById("motivation-btn");
+
+        leftBtn.addEventListener('click', () => {
+            window.open('./index.html', '_blank');
+        })
+
+        rightBtn.addEventListener('click', () => {
+            window.open('./motivation-page.html', '_blank');
+        })
+    </script>
+</body>
+</html>
